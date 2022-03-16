@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000305] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000348] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000380] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000410] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000440] (-) JobUnselected: {'identifier': 'package_name'}
+[0.000470] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000500] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000529] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000559] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000591] (my_first_service) JobQueued: {'identifier': 'my_first_service', 'dependencies': OrderedDict([('custom_interface', '/home/carlos/turtlebot3_ws/install/custom_interface')])}
+[0.000628] (my_first_service) JobStarted: {'identifier': 'my_first_service'}
+[0.093213] (-) TimerEvent: {}
+[0.193730] (-) TimerEvent: {}
+[0.294127] (-) TimerEvent: {}
+[0.394548] (-) TimerEvent: {}
+[0.495406] (-) TimerEvent: {}
+[0.595872] (-) TimerEvent: {}
+[0.696298] (-) TimerEvent: {}
+[0.796692] (-) TimerEvent: {}
+[0.897197] (-) TimerEvent: {}
+[0.997667] (-) TimerEvent: {}
+[1.098146] (-) TimerEvent: {}
+[1.149101] (my_first_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_service', 'build', '--build-base', '/home/carlos/turtlebot3_ws/build/my_first_service/build', 'install', '--prefix', '/home/carlos/turtlebot3_ws/install/my_first_service', '--record', '/home/carlos/turtlebot3_ws/build/my_first_service/install.log', '--single-version-externally-managed'], 'cwd': '/home/carlos/turtlebot3_ws/src/my_first_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_AGENT_PID': '9594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/carlos/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/turtlebot3_ws/src/my_first_service/my_first_service', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '9376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/carlos/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'carlos', 'JOURNAL_STREAM': '8:40239', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'carlos', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/carlos/virtualenvs/rosenv/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/carlos-VirtualBox:@/tmp/.ICE-unix/9646,unix/carlos-VirtualBox:/tmp/.ICE-unix/9646', 'INVOCATION_ID': '4baf12166442449aa873a43117040497', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/68828523_a256_4a8d_bd59_5157e3395a53', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.473', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '40', 'AMENT_PREFIX_PATH': '/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/custom_interface:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/carlos/virtualenvs/rosenv', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/carlos/turtlebot3_ws/build/my_first_service', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/carlos/turtlebot3_ws/install/custom_interface:/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[1.198286] (-) TimerEvent: {}
+[1.299250] (-) TimerEvent: {}
+[1.399695] (-) TimerEvent: {}
+[1.500125] (-) TimerEvent: {}
+[1.524691] (my_first_service) StdoutLine: {'line': b'running egg_info\n'}
+[1.528905] (my_first_service) StdoutLine: {'line': b'creating ../../build/my_first_service/my_first_service.egg-info\n'}
+[1.529484] (my_first_service) StdoutLine: {'line': b'writing ../../build/my_first_service/my_first_service.egg-info/PKG-INFO\n'}
+[1.530198] (my_first_service) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_service/my_first_service.egg-info/dependency_links.txt\n'}
+[1.530792] (my_first_service) StdoutLine: {'line': b'writing entry points to ../../build/my_first_service/my_first_service.egg-info/entry_points.txt\n'}
+[1.531100] (my_first_service) StdoutLine: {'line': b'writing requirements to ../../build/my_first_service/my_first_service.egg-info/requires.txt\n'}
+[1.531362] (my_first_service) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_service/my_first_service.egg-info/top_level.txt\n'}
+[1.533719] (my_first_service) StdoutLine: {'line': b"writing manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'\n"}
+[1.600239] (-) TimerEvent: {}
+[1.604261] (my_first_service) StdoutLine: {'line': b"reading manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'\n"}
+[1.606300] (my_first_service) StdoutLine: {'line': b"writing manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'\n"}
+[1.606755] (my_first_service) StdoutLine: {'line': b'running build\n'}
+[1.606963] (my_first_service) StdoutLine: {'line': b'running build_py\n'}
+[1.607365] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/build/my_first_service/build\n'}
+[1.607697] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/build/my_first_service/build/lib\n'}
+[1.608008] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service\n'}
+[1.608292] (my_first_service) StdoutLine: {'line': b'copying my_first_service/__init__.py -> /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service\n'}
+[1.608653] (my_first_service) StdoutLine: {'line': b'copying my_first_service/movement_server.py -> /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service\n'}
+[1.609076] (my_first_service) StdoutLine: {'line': b'running install\n'}
+[1.610399] (my_first_service) StdoutLine: {'line': b'running install_lib\n'}
+[1.612453] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service\n'}
+[1.612881] (my_first_service) StdoutLine: {'line': b'copying /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service/__init__.py -> /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service\n'}
+[1.613214] (my_first_service) StdoutLine: {'line': b'copying /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service/movement_server.py -> /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service\n'}
+[1.614396] (my_first_service) StdoutLine: {'line': b'byte-compiling /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service/__init__.py to __init__.cpython-38.pyc\n'}
+[1.616587] (my_first_service) StdoutLine: {'line': b'byte-compiling /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service/movement_server.py to movement_server.cpython-38.pyc\n'}
+[1.617501] (my_first_service) StdoutLine: {'line': b'running install_data\n'}
+[1.618479] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/install/my_first_service/share/ament_index\n'}
+[1.618725] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/install/my_first_service/share/ament_index/resource_index\n'}
+[1.618951] (my_first_service) StdoutLine: {'line': b'creating /home/carlos/turtlebot3_ws/install/my_first_service/share/ament_index/resource_index/packages\n'}
+[1.619238] (my_first_service) StdoutLine: {'line': b'copying resource/my_first_service -> /home/carlos/turtlebot3_ws/install/my_first_service/share/ament_index/resource_index/packages\n'}
+[1.619586] (my_first_service) StdoutLine: {'line': b'copying package.xml -> /home/carlos/turtlebot3_ws/install/my_first_service/share/my_first_service\n'}
+[1.619992] (my_first_service) StdoutLine: {'line': b'copying launch/movement_server_launch.launch.py -> /home/carlos/turtlebot3_ws/install/my_first_service/share/my_first_service\n'}
+[1.620404] (my_first_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.623114] (my_first_service) StdoutLine: {'line': b'Copying ../../build/my_first_service/my_first_service.egg-info to /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service-0.0.0-py3.8.egg-info\n'}
+[1.624636] (my_first_service) StdoutLine: {'line': b'running install_scripts\n'}
+[1.657341] (my_first_service) StdoutLine: {'line': b'Installing movement_server script to /home/carlos/turtlebot3_ws/install/my_first_service/lib/my_first_service\n'}
+[1.658084] (my_first_service) StdoutLine: {'line': b"writing list of installed files to '/home/carlos/turtlebot3_ws/build/my_first_service/install.log'\n"}
+[1.691880] (my_first_service) CommandEnded: {'returncode': 0}
+[1.700417] (-) TimerEvent: {}
+[1.708428] (my_first_service) JobEnded: {'identifier': 'my_first_service', 'rc': 0}
+[1.709564] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[1.379s] Invoking command in '/home/carlos/turtlebot3_ws/src/my_first_publisher': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/carlos/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/carlos/turtlebot3_ws/install/my_first_publisher --record /home/carlos/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed
+[1.842s] running egg_info
+[1.844s] creating ../../build/my_first_publisher/my_first_publisher.egg-info
+[1.844s] writing ../../build/my_first_publisher/my_first_publisher.egg-info/PKG-INFO
+[1.845s] writing dependency_links to ../../build/my_first_publisher/my_first_publisher.egg-info/dependency_links.txt
+[1.846s] writing entry points to ../../build/my_first_publisher/my_first_publisher.egg-info/entry_points.txt
+[1.846s] writing requirements to ../../build/my_first_publisher/my_first_publisher.egg-info/requires.txt
+[1.847s] writing top-level names to ../../build/my_first_publisher/my_first_publisher.egg-info/top_level.txt
+[1.849s] writing manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[1.946s] reading manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[1.948s] writing manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[1.948s] running build
+[1.949s] running build_py
+[1.949s] creating /home/carlos/turtlebot3_ws/build/my_first_publisher/build
+[1.949s] creating /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib
+[1.950s] creating /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[1.950s] copying my_first_publisher/__init__.py -> /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[1.951s] copying my_first_publisher/simple_publisher.py -> /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[1.957s] running install
+[1.958s] running install_lib
+[1.960s] creating /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[1.961s] copying /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher/__init__.py -> /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[1.962s] copying /home/carlos/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher/simple_publisher.py -> /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[1.965s] byte-compiling /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher/__init__.py to __init__.cpython-38.pyc
+[1.968s] byte-compiling /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher/simple_publisher.py to simple_publisher.cpython-38.pyc
+[1.969s] running install_data
+[1.970s] creating /home/carlos/turtlebot3_ws/install/my_first_publisher/share/ament_index
+[1.971s] creating /home/carlos/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index
+[1.971s] creating /home/carlos/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index/packages
+[1.972s] copying resource/my_first_publisher -> /home/carlos/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index/packages
+[1.972s] copying package.xml -> /home/carlos/turtlebot3_ws/install/my_first_publisher/share/my_first_publisher
+[1.972s] running install_egg_info
+[1.976s] Copying ../../build/my_first_publisher/my_first_publisher.egg-info to /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher-0.0.0-py3.8.egg-info
+[1.977s] running install_scripts
+[2.031s] Installing simple_publisher script to /home/carlos/turtlebot3_ws/install/my_first_publisher/lib/my_first_publisher
+[2.033s] writing list of installed files to '/home/carlos/turtlebot3_ws/build/my_first_publisher/install.log'
+[2.087s] Invoked command in '/home/carlos/turtlebot3_ws/src/my_first_publisher' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/carlos/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/carlos/turtlebot3_ws/install/my_first_publisher --record /home/carlos/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed

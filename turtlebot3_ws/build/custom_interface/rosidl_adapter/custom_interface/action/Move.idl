@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interface/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Move_Goal {
+      @verbatim (language="comment", text=
+        "segundos que el robot permanece moviendose")
+      int32 secs;
+    };
+    struct Move_Result {
+      @verbatim (language="comment", text=
+        "result" "\n"
+        "estado final de la accion")
+      string status;
+    };
+    struct Move_Feedback {
+      @verbatim (language="comment", text=
+        "feedback" "\n"
+        "estado actual del robot")
+      string feedback;
+    };
+  };
+};

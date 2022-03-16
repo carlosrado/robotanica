@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000250] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000283] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000315] (-) JobUnselected: {'identifier': 'package_name'}
+[0.000346] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000377] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000408] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000442] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.000499] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.018664] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.020369] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[0.021684] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carlos/turtlebot3_ws/build/custom_interface', '--', '-j1', '-l1'], 'cwd': '/home/carlos/turtlebot3_ws/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'carlos'), ('SSH_AGENT_PID', '9594'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/carlos'), ('OLDPWD', '/home/carlos/turtlebot3_ws/src/custom_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '9376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'carlos'), ('JOURNAL_STREAM', '8:40239'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carlos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/carlos/virtualenvs/rosenv/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/carlos-VirtualBox:@/tmp/.ICE-unix/9646,unix/carlos-VirtualBox:/tmp/.ICE-unix/9646'), ('INVOCATION_ID', '4baf12166442449aa873a43117040497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68828523_a256_4a8d_bd59_5157e3395a53'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.473'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '40'), ('AMENT_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/carlos/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carlos/turtlebot3_ws/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[0.094372] (-) TimerEvent: {}
+[0.125338] (custom_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.194494] (-) TimerEvent: {}
+[0.294895] (-) TimerEvent: {}
+[0.395286] (-) TimerEvent: {}
+[0.495647] (-) TimerEvent: {}
+[0.596130] (-) TimerEvent: {}
+[0.649641] (custom_interface) StdoutLine: {'line': b'[  3%] Built target custom_interface__cpp\n'}
+[0.665075] (custom_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.696277] (-) TimerEvent: {}
+[0.796675] (-) TimerEvent: {}
+[0.897112] (-) TimerEvent: {}
+[0.998222] (-) TimerEvent: {}
+[1.098683] (-) TimerEvent: {}
+[1.166217] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.193843] (custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/distvel__type_support.cpp.o\x1b[0m\n'}
+[1.198796] (-) TimerEvent: {}
+[1.299235] (-) TimerEvent: {}
+[1.399828] (-) TimerEvent: {}
+[1.500315] (-) TimerEvent: {}
+[1.600769] (-) TimerEvent: {}
+[1.701196] (-) TimerEvent: {}
+[1.801658] (-) TimerEvent: {}
+[1.832199] (custom_interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.892809] (custom_interface) StdoutLine: {'line': b'[ 12%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[1.901806] (-) TimerEvent: {}
+[1.906647] (custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.001950] (-) TimerEvent: {}
+[2.102369] (-) TimerEvent: {}
+[2.202808] (-) TimerEvent: {}
+[2.303451] (-) TimerEvent: {}
+[2.356428] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.381681] (custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[2.403660] (-) TimerEvent: {}
+[2.504168] (-) TimerEvent: {}
+[2.604719] (-) TimerEvent: {}
+[2.705241] (-) TimerEvent: {}
+[2.805931] (-) TimerEvent: {}
+[2.830085] (custom_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.900929] (custom_interface) StdoutLine: {'line': b'[ 22%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[2.906054] (-) TimerEvent: {}
+[2.914714] (custom_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.006212] (-) TimerEvent: {}
+[3.106599] (-) TimerEvent: {}
+[3.207035] (-) TimerEvent: {}
+[3.311943] (-) TimerEvent: {}
+[3.412381] (-) TimerEvent: {}
+[3.453157] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_generator_c\x1b[0m\n'}
+[3.468965] (custom_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/distvel__functions.c.o\x1b[0m\n'}
+[3.512512] (-) TimerEvent: {}
+[3.534754] (custom_interface) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.585430] (custom_interface) StdoutLine: {'line': b'[ 32%] Built target custom_interface__rosidl_generator_c\n'}
+[3.598492] (custom_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.612648] (-) TimerEvent: {}
+[3.713150] (-) TimerEvent: {}
+[3.813539] (-) TimerEvent: {}
+[3.913974] (-) TimerEvent: {}
+[4.014400] (-) TimerEvent: {}
+[4.093646] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.114522] (-) TimerEvent: {}
+[4.120780] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/distvel__type_support.cpp.o\x1b[0m\n'}
+[4.214668] (-) TimerEvent: {}
+[4.315151] (-) TimerEvent: {}
+[4.415555] (-) TimerEvent: {}
+[4.516033] (-) TimerEvent: {}
+[4.616784] (-) TimerEvent: {}
+[4.717341] (-) TimerEvent: {}
+[4.817856] (-) TimerEvent: {}
+[4.825740] (custom_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.917999] (-) TimerEvent: {}
+[4.974368] (custom_interface) StdoutLine: {'line': b'[ 41%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.990337] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.018187] (-) TimerEvent: {}
+[5.118764] (-) TimerEvent: {}
+[5.219225] (-) TimerEvent: {}
+[5.319590] (-) TimerEvent: {}
+[5.421110] (-) TimerEvent: {}
+[5.478131] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.502380] (custom_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/distvel__type_support_c.cpp.o\x1b[0m\n'}
+[5.521265] (-) TimerEvent: {}
+[5.621697] (-) TimerEvent: {}
+[5.722119] (-) TimerEvent: {}
+[5.822518] (-) TimerEvent: {}
+[5.922941] (-) TimerEvent: {}
+[6.023363] (-) TimerEvent: {}
+[6.026234] (custom_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.123486] (-) TimerEvent: {}
+[6.185717] (custom_interface) StdoutLine: {'line': b'[ 51%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[6.201453] (custom_interface) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.223598] (-) TimerEvent: {}
+[6.324037] (-) TimerEvent: {}
+[6.424594] (-) TimerEvent: {}
+[6.525433] (-) TimerEvent: {}
+[6.625860] (-) TimerEvent: {}
+[6.696308] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.716184] (custom_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/distvel__type_support.c.o\x1b[0m\n'}
+[6.725974] (-) TimerEvent: {}
+[6.769838] (custom_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.813576] (custom_interface) StdoutLine: {'line': b'[ 61%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[6.826126] (-) TimerEvent: {}
+[6.827102] (custom_interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.926281] (-) TimerEvent: {}
+[7.026732] (-) TimerEvent: {}
+[7.127406] (-) TimerEvent: {}
+[7.227786] (-) TimerEvent: {}
+[7.302473] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c\x1b[0m\n'}
+[7.319888] (custom_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[7.327911] (-) TimerEvent: {}
+[7.367358] (custom_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.423687] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface__rosidl_typesupport_c\n'}
+[7.428057] (-) TimerEvent: {}
+[7.437419] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface\x1b[0m\n'}
+[7.451248] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface\n'}
+[7.467387] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__py\x1b[0m\n'}
+[7.481475] (custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.528172] (-) TimerEvent: {}
+[7.628648] (-) TimerEvent: {}
+[7.729074] (-) TimerEvent: {}
+[7.829451] (-) TimerEvent: {}
+[7.870095] (custom_interface) StderrLine: {'line': b"ModuleNotFoundError in template '/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em': No module named 'numpy'\n"}
+[7.870478] (custom_interface) StderrLine: {'line': b"ModuleNotFoundError when expanding '_idl.py.em' into '/home/carlos/turtlebot3_ws/build/custom_interface/rosidl_generator_py/custom_interface/msg/_distvel.py': No module named 'numpy'\n"}
+[7.870761] (custom_interface) StderrLine: {'line': b'Error processing idl file: /home/carlos/turtlebot3_ws/build/custom_interface/rosidl_adapter/custom_interface/msg/Distvel.idl\n'}
+[7.871047] (custom_interface) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.871271] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>\n'}
+[7.871690] (custom_interface) StderrLine: {'line': b'    sys.exit(main())\n'}
+[7.872001] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main\n'}
+[7.872259] (custom_interface) StderrLine: {'line': b"    return generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))\n"}
+[7.872445] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py\n'}
+[7.872686] (custom_interface) StderrLine: {'line': b'    generate_files(generator_arguments_file, mapping)\n'}
+[7.872888] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 96, in generate_files\n'}
+[7.873145] (custom_interface) StderrLine: {'line': b'    raise(e)\n'}
+[7.873318] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[7.873556] (custom_interface) StderrLine: {'line': b'    expand_template(\n'}
+[7.873843] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[7.874167] (custom_interface) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[7.874377] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2391, in string\n'}
+[7.875230] (custom_interface) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[7.875448] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2401, in safe\n'}
+[7.876391] (custom_interface) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[7.876613] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2421, in parse\n'}
+[7.877485] (custom_interface) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[7.877786] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1547, in run\n'}
+[7.878413] (custom_interface) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[7.878628] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1631, in subrun\n'}
+[7.879342] (custom_interface) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[7.879643] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1425, in run\n'}
+[7.880270] (custom_interface) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[7.880489] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2596, in execute\n'}
+[7.881410] (custom_interface) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[7.881665] (custom_interface) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[7.882036] (custom_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[7.882374] (custom_interface) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[7.882626] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2391, in string\n'}
+[7.883570] (custom_interface) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[7.883843] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2401, in safe\n'}
+[7.884693] (custom_interface) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[7.884915] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2421, in parse\n'}
+[7.885775] (custom_interface) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[7.885996] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1425, in run\n'}
+[7.886743] (custom_interface) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[7.886989] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2596, in execute\n'}
+[7.887979] (custom_interface) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[7.888253] (custom_interface) StderrLine: {'line': b'  File "<string>", line 3, in <module>\n'}
+[7.888567] (custom_interface) StderrLine: {'line': b"ModuleNotFoundError: No module named 'numpy'\n"}
+[7.899599] (custom_interface) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7f418fce00d0>\n'}
+[7.899947] (custom_interface) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.900132] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2094, in __del__\n'}
+[7.900347] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2157, in shutdown\n'}
+[7.900550] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2647, in finalize\n'}
+[7.900785] (custom_interface) StderrLine: {'line': b'  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2200, in push\n'}
+[7.900996] (custom_interface) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[7.910460] (custom_interface) StderrLine: {'line': b'make[2]: *** [custom_interface__py/CMakeFiles/custom_interface__py.dir/build.make:79: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1\n'}
+[7.916334] (custom_interface) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:553: custom_interface__py/CMakeFiles/custom_interface__py.dir/all] Error 2\n'}
+[7.917244] (custom_interface) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.917441] (custom_interface) CommandEnded: {'returncode': 2}
+[7.929642] (-) TimerEvent: {}
+[8.014245] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 2}
+[8.017668] (-) EventReactorShutdown: {}

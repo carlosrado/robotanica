@@ -1,0 +1,55 @@
+ModuleNotFoundError in template '/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em': No module named 'numpy'
+ModuleNotFoundError when expanding '_idl.py.em' into '/home/carlos/turtlebot3_ws/build/custom_interface/rosidl_generator_py/custom_interface/msg/_distvel.py': No module named 'numpy'
+Error processing idl file: /home/carlos/turtlebot3_ws/build/custom_interface/rosidl_adapter/custom_interface/msg/Distvel.idl
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+    sys.exit(main())
+  File "/opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    return generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py", line 61, in generate_py
+    generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 96, in generate_files
+    raise(e)
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+    expand_template(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1547, in run
+    self.subrun(info[0][1], interpreter, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 3, in <module>
+ModuleNotFoundError: No module named 'numpy'
+Exception ignored in: <function Interpreter.__del__ at 0x7f418fce00d0>
+Traceback (most recent call last):
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2094, in __del__
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2157, in shutdown
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2647, in finalize
+  File "/home/carlos/virtualenvs/rosenv/lib/python3.8/site-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+make[2]: *** [custom_interface__py/CMakeFiles/custom_interface__py.dir/build.make:79: rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1
+make[1]: *** [CMakeFiles/Makefile2:553: custom_interface__py/CMakeFiles/custom_interface__py.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

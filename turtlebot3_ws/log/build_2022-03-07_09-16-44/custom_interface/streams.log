@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/carlos/turtlebot3_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/custom_interface
+[0.067s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.101s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[0.315s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.738s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.056s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.079s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.117s] Traceback (most recent call last):
+[1.117s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[1.117s]     from catkin_pkg.package import parse_package_string
+[1.117s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.123s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.123s]   execute_process(/home/carlos/virtualenvs/rosenv/bin/python3
+[1.124s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.125s]   /home/carlos/turtlebot3_ws/src/custom_interface/package.xml
+[1.125s]   /home/carlos/turtlebot3_ws/build/custom_interface/ament_cmake_core/package.cmake)
+[1.125s]   returned error code 1
+[1.125s] Call Stack (most recent call first):
+[1.125s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.126s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.126s]   CMakeLists.txt:36 (ament_lint_auto_find_test_dependencies)
+[1.126s] 
+[1.126s] 
+[1.128s] -- Configuring incomplete, errors occurred!
+[1.128s] See also "/home/carlos/turtlebot3_ws/build/custom_interface/CMakeFiles/CMakeOutput.log".
+[1.128s] See also "/home/carlos/turtlebot3_ws/build/custom_interface/CMakeFiles/CMakeError.log".
+[1.144s] Invoked command in '/home/carlos/turtlebot3_ws/build/custom_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/custom_interface

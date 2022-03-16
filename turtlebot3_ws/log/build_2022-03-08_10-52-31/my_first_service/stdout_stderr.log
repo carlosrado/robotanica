@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/my_first_service/my_first_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_first_service/my_first_service.egg-info/dependency_links.txt
+writing entry points to ../../build/my_first_service/my_first_service.egg-info/entry_points.txt
+writing requirements to ../../build/my_first_service/my_first_service.egg-info/requires.txt
+writing top-level names to ../../build/my_first_service/my_first_service.egg-info/top_level.txt
+reading manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_first_service/movement_client.py -> /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service
+running install
+running install_lib
+copying /home/carlos/turtlebot3_ws/build/my_first_service/build/lib/my_first_service/movement_client.py -> /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service
+byte-compiling /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service/movement_client.py to movement_client.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/my_first_service/my_first_service.egg-info to /home/carlos/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing movement_client script to /home/carlos/turtlebot3_ws/install/my_first_service/lib/my_first_service
+Installing movement_server script to /home/carlos/turtlebot3_ws/install/my_first_service/lib/my_first_service
+writing list of installed files to '/home/carlos/turtlebot3_ws/build/my_first_service/install.log'

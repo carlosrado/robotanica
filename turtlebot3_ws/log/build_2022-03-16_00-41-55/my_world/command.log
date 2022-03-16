@@ -1,0 +1,2 @@
+Invoking command in '/home/carlos/turtlebot3_ws/build/my_world': /usr/bin/cmake /home/carlos/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/my_world
+Invoked command in '/home/carlos/turtlebot3_ws/build/my_world' returned '1': /usr/bin/cmake /home/carlos/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/my_world

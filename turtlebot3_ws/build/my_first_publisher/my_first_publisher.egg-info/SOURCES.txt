@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_first_publisher/my_first_publisher.egg-info/PKG-INFO
+../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt
+../../build/my_first_publisher/my_first_publisher.egg-info/dependency_links.txt
+../../build/my_first_publisher/my_first_publisher.egg-info/entry_points.txt
+../../build/my_first_publisher/my_first_publisher.egg-info/requires.txt
+../../build/my_first_publisher/my_first_publisher.egg-info/top_level.txt
+../../build/my_first_publisher/my_first_publisher.egg-info/zip-safe
+launch/my_first_publisher.launch.py
+my_first_publisher/__init__.py
+my_first_publisher/simple_publisher.py
+resource/my_first_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

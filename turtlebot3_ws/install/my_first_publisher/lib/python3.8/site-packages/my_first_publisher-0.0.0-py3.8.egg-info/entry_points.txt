@@ -1,0 +1,3 @@
+[console_scripts]
+simple_publisher = my_first_publisher.simple_publisher:main
+

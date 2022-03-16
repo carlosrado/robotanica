@@ -1,0 +1,38 @@
+[1.369s] Invoking command in '/home/carlos/turtlebot3_ws/src/my_first_node': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_node build --build-base /home/carlos/turtlebot3_ws/build/my_first_node/build install --prefix /home/carlos/turtlebot3_ws/install/my_first_node --record /home/carlos/turtlebot3_ws/build/my_first_node/install.log --single-version-externally-managed
+[1.749s] running egg_info
+[1.750s] creating ../../build/my_first_node/my_first_node.egg-info
+[1.751s] writing ../../build/my_first_node/my_first_node.egg-info/PKG-INFO
+[1.751s] writing dependency_links to ../../build/my_first_node/my_first_node.egg-info/dependency_links.txt
+[1.752s] writing entry points to ../../build/my_first_node/my_first_node.egg-info/entry_points.txt
+[1.752s] writing requirements to ../../build/my_first_node/my_first_node.egg-info/requires.txt
+[1.752s] writing top-level names to ../../build/my_first_node/my_first_node.egg-info/top_level.txt
+[1.956s] writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[2.068s] reading manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[2.070s] writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[2.070s] running build
+[2.070s] running build_py
+[2.071s] creating /home/carlos/turtlebot3_ws/build/my_first_node/build
+[2.071s] creating /home/carlos/turtlebot3_ws/build/my_first_node/build/lib
+[2.071s] creating /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[2.071s] copying my_first_node/__init__.py -> /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[2.072s] copying my_first_node/simple_node.py -> /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[2.072s] running install
+[2.074s] running install_lib
+[2.075s] creating /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[2.075s] copying /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/__init__.py -> /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[2.076s] copying /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/simple_node.py -> /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[2.077s] byte-compiling /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/__init__.py to __init__.cpython-38.pyc
+[2.079s] byte-compiling /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/simple_node.py to simple_node.cpython-38.pyc
+[2.080s] running install_data
+[2.081s] creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index
+[2.081s] creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index
+[2.081s] creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+[2.081s] copying resource/my_first_node -> /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+[2.082s] copying package.xml -> /home/carlos/turtlebot3_ws/install/my_first_node/share/my_first_node
+[2.082s] copying launch/my_first_node_launch.launch.py -> /home/carlos/turtlebot3_ws/install/my_first_node/share/my_first_node
+[2.082s] running install_egg_info
+[2.085s] Copying ../../build/my_first_node/my_first_node.egg-info to /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node-0.0.0-py3.8.egg-info
+[2.086s] running install_scripts
+[2.117s] Installing simple_node script to /home/carlos/turtlebot3_ws/install/my_first_node/lib/my_first_node
+[2.117s] writing list of installed files to '/home/carlos/turtlebot3_ws/build/my_first_node/install.log'
+[2.161s] Invoked command in '/home/carlos/turtlebot3_ws/src/my_first_node' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_node build --build-base /home/carlos/turtlebot3_ws/build/my_first_node/build install --prefix /home/carlos/turtlebot3_ws/install/my_first_node --record /home/carlos/turtlebot3_ws/build/my_first_node/install.log --single-version-externally-managed

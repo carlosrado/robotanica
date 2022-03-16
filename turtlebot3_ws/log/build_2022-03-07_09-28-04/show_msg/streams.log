@@ -1,0 +1,39 @@
+[1.462s] Invoking command in '/home/carlos/turtlebot3_ws/src/show_msg': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/carlos/turtlebot3_ws/build/show_msg/build install --prefix /home/carlos/turtlebot3_ws/install/show_msg --record /home/carlos/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[1.923s] running egg_info
+[1.924s] creating ../../build/show_msg/show_msg.egg-info
+[1.925s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[1.925s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[1.926s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[1.926s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[1.927s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[1.936s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[2.018s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[2.020s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[2.021s] running build
+[2.021s] running build_py
+[2.021s] creating /home/carlos/turtlebot3_ws/build/show_msg/build
+[2.022s] creating /home/carlos/turtlebot3_ws/build/show_msg/build/lib
+[2.022s] creating /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[2.023s] copying show_msg/__init__.py -> /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[2.023s] copying show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[2.024s] running install
+[2.026s] running install_lib
+[2.028s] creating /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[2.028s] copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/__init__.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[2.030s] copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[2.031s] byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/__init__.py to __init__.cpython-38.pyc
+[2.034s] byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+[2.034s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (show_msg.py, line 14)
+[2.035s] running install_data
+[2.036s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index
+[2.036s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index
+[2.036s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[2.037s] copying resource/show_msg -> /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[2.037s] copying package.xml -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+[2.038s] copying launch/show_msg.launch.py -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+[2.038s] running install_egg_info
+[2.043s] Copying ../../build/show_msg/show_msg.egg-info to /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[2.045s] running install_scripts
+[2.080s] Installing show_msg script to /home/carlos/turtlebot3_ws/install/show_msg/lib/show_msg
+[2.081s] writing list of installed files to '/home/carlos/turtlebot3_ws/build/show_msg/install.log'
+[2.126s] Invoked command in '/home/carlos/turtlebot3_ws/src/show_msg' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/carlos/turtlebot3_ws/build/show_msg/build install --prefix /home/carlos/turtlebot3_ws/install/show_msg --record /home/carlos/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

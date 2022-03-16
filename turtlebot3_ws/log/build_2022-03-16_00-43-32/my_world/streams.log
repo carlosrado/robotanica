@@ -1,0 +1,136 @@
+[0.112s] Invoking command in '/home/carlos/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/my_world
+[0.346s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.511s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.512s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[1.435s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.471s] -- Checking for module 'bullet>=2.82'
+[1.560s] --   Found bullet, version 2.88
+[2.199s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.483s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.788s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.940s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.999s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.191s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.229s] -- Looking for ignition-math6 -- found version 6.9.2
+[5.279s] -- Searching for dependencies of ignition-math6
+[5.295s] -- Looking for OGRE...
+[5.299s] -- OGRE_PREFIX_WATCH changed.
+[5.319s] -- Checking for module 'OGRE'
+[5.417s] --   Found OGRE, version 1.9.0
+[5.677s] -- Found Ogre Ghadamon (1.9.0)
+[5.795s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.871s] -- Looking for OGRE_Paging...
+[5.959s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.961s] -- Looking for OGRE_Terrain...
+[6.724s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.724s] -- Looking for OGRE_Property...
+[6.789s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.789s] -- Looking for OGRE_RTShaderSystem...
+[6.852s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.856s] -- Looking for OGRE_Volume...
+[6.921s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.921s] -- Looking for OGRE_Overlay...
+[6.979s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.277s] -- Looking for ignition-math6 -- found version 6.9.2
+[8.290s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.297s] -- Searching for dependencies of ignition-transport8
+[8.388s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[8.447s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.474s] -- Checking for module 'libzmq >= 4'
+[8.556s] --   Found libzmq , version 4.3.2
+[8.764s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.797s] -- Checking for module 'uuid'
+[8.884s] --   Found uuid, version 2.34.0
+[9.086s] -- Found UUID: TRUE  
+[9.101s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.102s] -- Searching for dependencies of ignition-msgs5
+[9.204s] -- Looking for ignition-math6 -- found version 6.9.2
+[9.229s] -- Checking for module 'tinyxml2'
+[9.307s] --   Found tinyxml2, version 6.2.0
+[9.522s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.538s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.543s] -- Searching for dependencies of ignition-common3
+[9.546s] -- Looking for dlfcn.h - found
+[9.555s] -- Looking for libdl - found
+[9.563s] -- Found DL: TRUE  
+[9.753s] -- Searching for <ignition-common3> component [graphics]
+[9.767s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[9.772s] -- Searching for dependencies of ignition-common3-graphics
+[9.775s] -- Looking for ignition-math6 -- found version 6.9.2
+[9.798s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[9.805s] -- Searching for dependencies of ignition-fuel_tools4
+[10.262s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[10.308s] -- Checking for module 'jsoncpp'
+[10.387s] --   Found jsoncpp, version 1.7.4
+[10.590s] -- Found JSONCPP: TRUE  
+[10.631s] -- Checking for module 'libzip'
+[10.716s] --   Found libzip, version 1.5.1
+[10.918s] -- Found ZIP: TRUE  
+[10.919s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.924s] -- Looking for ignition-math6 -- found version 6.9.2
+[10.925s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.944s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[10.956s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[11.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.201s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.826s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.989s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[13.508s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[13.845s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.869s] -- Found Threads: TRUE  
+[14.991s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[15.501s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[15.582s] -- Found turtlebot3_gazebo: 2.2.3 (/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[16.720s] -- Configuring done
+[16.786s] -- Generating done
+[16.804s] -- Build files have been written to: /home/carlos/turtlebot3_ws/build/my_world
+[16.861s] Invoked command in '/home/carlos/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/my_world
+[16.863s] Invoking command in '/home/carlos/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/my_world -- -j1 -l1
+[17.096s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[17.437s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[358.506s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[361.249s] [100%] Built target turtlebot3_drive
+[361.400s] Invoked command in '/home/carlos/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/my_world -- -j1 -l1
+[361.641s] Invoking command in '/home/carlos/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/carlos/turtlebot3_ws/build/my_world
+[361.718s] -- Install configuration: ""
+[361.724s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[361.751s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""
+[361.756s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//launch
+[361.757s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[361.760s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models
+[361.762s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[361.766s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[361.769s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[361.772s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[361.774s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[361.777s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[361.780s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[361.784s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[361.786s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[361.789s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[361.794s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[361.800s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//world
+[361.803s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[361.807s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/include/
+[361.810s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/include//my_world
+[361.814s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[361.815s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[361.826s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[361.827s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[361.827s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[361.828s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[361.829s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[361.832s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[361.833s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[361.838s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[361.839s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[361.843s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[361.847s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[361.849s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[361.851s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[361.852s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[361.854s] -- Installing: /home/carlos/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[361.868s] Invoked command in '/home/carlos/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/home/carlos/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/carlos/turtlebot3_ws/build/my_world

@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg
+running install
+running install_lib
+creating /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/__init__.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+running install_data
+creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index
+creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index
+creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+copying resource/show_msg -> /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+copying package.xml -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+copying launch/show_msg.launch.py -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+running install_egg_info
+Copying ../../build/show_msg/show_msg.egg-info to /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing show_msg script to /home/carlos/turtlebot3_ws/install/show_msg/lib/show_msg
+writing list of installed files to '/home/carlos/turtlebot3_ws/build/show_msg/install.log'

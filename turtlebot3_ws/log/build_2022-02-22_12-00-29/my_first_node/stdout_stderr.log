@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/my_first_node/my_first_node.egg-info
+writing ../../build/my_first_node/my_first_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_first_node/my_first_node.egg-info/dependency_links.txt
+writing entry points to ../../build/my_first_node/my_first_node.egg-info/entry_points.txt
+writing requirements to ../../build/my_first_node/my_first_node.egg-info/requires.txt
+writing top-level names to ../../build/my_first_node/my_first_node.egg-info/top_level.txt
+writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/carlos/turtlebot3_ws/build/my_first_node/build
+creating /home/carlos/turtlebot3_ws/build/my_first_node/build/lib
+creating /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+copying my_first_node/__init__.py -> /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+copying my_first_node/simple_node.py -> /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+running install
+running install_lib
+creating /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+copying /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/__init__.py -> /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+copying /home/carlos/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/simple_node.py -> /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+byte-compiling /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/simple_node.py to simple_node.cpython-38.pyc
+running install_data
+creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index
+creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index
+creating /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+copying resource/my_first_node -> /home/carlos/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/carlos/turtlebot3_ws/install/my_first_node/share/my_first_node
+copying launch/my_first_node_launch.launch.py -> /home/carlos/turtlebot3_ws/install/my_first_node/share/my_first_node
+running install_egg_info
+Copying ../../build/my_first_node/my_first_node.egg-info to /home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node-0.0.0-py3.8.egg-info
+running install_scripts
+Installing simple_node script to /home/carlos/turtlebot3_ws/install/my_first_node/lib/my_first_node
+writing list of installed files to '/home/carlos/turtlebot3_ws/build/my_first_node/install.log'

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_first_subscriber/my_first_subscriber.egg-info/PKG-INFO
+../../build/my_first_subscriber/my_first_subscriber.egg-info/SOURCES.txt
+../../build/my_first_subscriber/my_first_subscriber.egg-info/dependency_links.txt
+../../build/my_first_subscriber/my_first_subscriber.egg-info/entry_points.txt
+../../build/my_first_subscriber/my_first_subscriber.egg-info/requires.txt
+../../build/my_first_subscriber/my_first_subscriber.egg-info/top_level.txt
+../../build/my_first_subscriber/my_first_subscriber.egg-info/zip-safe
+launch/my_first_subscriber.launch.py
+my_first_subscriber/__init__.py
+my_first_subscriber/simple_subscriber.py
+resource/my_first_subscriber
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

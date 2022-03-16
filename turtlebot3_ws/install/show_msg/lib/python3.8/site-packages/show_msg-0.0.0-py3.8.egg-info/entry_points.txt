@@ -1,0 +1,4 @@
+[console_scripts]
+show_msg = show_msg.show_msg:main
+show_msg_param = show_msg.show_msg_param:main
+

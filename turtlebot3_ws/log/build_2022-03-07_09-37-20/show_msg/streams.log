@@ -1,0 +1,32 @@
+[1.373s] Invoking command in '/home/carlos/turtlebot3_ws/src/show_msg': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/carlos/turtlebot3_ws/build/show_msg/build install --prefix /home/carlos/turtlebot3_ws/install/show_msg --record /home/carlos/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[1.743s] running egg_info
+[1.744s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[1.749s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[1.750s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[1.750s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[1.751s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[1.823s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.826s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.826s] running build
+[1.826s] running build_py
+[1.827s] copying show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[1.828s] running install
+[1.830s] running install_lib
+[1.834s] creating /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[1.835s] copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/__init__.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[1.835s] copying /home/carlos/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[1.837s] byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/__init__.py to __init__.cpython-38.pyc
+[1.840s] byte-compiling /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+[1.841s] running install_data
+[1.844s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index
+[1.844s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index
+[1.844s] creating /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[1.844s] copying resource/show_msg -> /home/carlos/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[1.845s] copying package.xml -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+[1.845s] copying launch/show_msg.launch.py -> /home/carlos/turtlebot3_ws/install/show_msg/share/show_msg
+[1.846s] running install_egg_info
+[1.848s] Copying ../../build/show_msg/show_msg.egg-info to /home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[1.850s] running install_scripts
+[1.878s] Installing show_msg script to /home/carlos/turtlebot3_ws/install/show_msg/lib/show_msg
+[1.879s] writing list of installed files to '/home/carlos/turtlebot3_ws/build/show_msg/install.log'
+[1.915s] Invoked command in '/home/carlos/turtlebot3_ws/src/show_msg' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/carlos/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/carlos/turtlebot3_ws/build/show_msg/build install --prefix /home/carlos/turtlebot3_ws/install/show_msg --record /home/carlos/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

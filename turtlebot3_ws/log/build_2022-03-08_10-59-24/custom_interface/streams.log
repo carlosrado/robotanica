@@ -1,0 +1,288 @@
+[0.039s] Invoking command in '/home/carlos/turtlebot3_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/custom_interface -- -j1 -l1
+[0.250s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.321s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.324s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[0.700s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.754s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.788s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.205s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found version "3.8.10") 
+[2.538s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.921s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.923s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.972s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[2.972s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.972s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.045s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.054s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.056s] -- Added test 'lint_cmake' to check CMake code style
+[3.058s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.063s] -- Added test 'xmllint' to check XML markup files
+[3.098s] -- Configuring done
+[3.337s] -- Generating done
+[3.346s] -- Build files have been written to: /home/carlos/turtlebot3_ws/build/custom_interface
+[3.384s] [35m[1mScanning dependencies of target custom_interface__cpp[0m
+[3.400s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.763s] [  2%] Built target custom_interface__cpp
+[4.782s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.815s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_cpp[0m
+[6.880s] [  6%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/distvel__type_support.cpp.o[0m
+[7.773s] [  8%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/my_move_msg__type_support.cpp.o[0m
+[8.241s] [ 10%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/action/detail/move__type_support.cpp.o[0m
+[8.760s] [ 12%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[8.945s] [ 12%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[8.963s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.895s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_cpp[0m
+[9.919s] [ 17%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/distvel__type_support.cpp.o[0m
+[10.339s] [ 19%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/my_move_msg__type_support.cpp.o[0m
+[10.764s] [ 21%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/action/move__type_support.cpp.o[0m
+[11.238s] [ 23%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so[0m
+[11.302s] [ 23%] Built target custom_interface__rosidl_typesupport_cpp
+[11.323s] [ 25%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.706s] [35m[1mScanning dependencies of target custom_interface__rosidl_generator_c[0m
+[12.727s] [ 27%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/distvel__functions.c.o[0m
+[12.967s] [ 29%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/my_move_msg__functions.c.o[0m
+[13.042s] [ 31%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/action/detail/move__functions.c.o[0m
+[13.169s] [ 34%] [32m[1mLinking C shared library libcustom_interface__rosidl_generator_c.so[0m
+[13.227s] [ 34%] Built target custom_interface__rosidl_generator_c
+[13.249s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.542s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_cpp[0m
+[14.573s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/distvel__type_support.cpp.o[0m
+[15.224s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/my_move_msg__type_support.cpp.o[0m
+[16.005s] [ 42%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[16.745s] [ 44%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.889s] [ 44%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[16.909s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.146s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c[0m
+[18.174s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/distvel__type_support_c.cpp.o[0m
+[18.704s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/my_move_msg__type_support_c.cpp.o[0m
+[19.243s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/action/detail/move__type_support_c.cpp.o[0m
+[19.843s] [ 55%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[19.984s] [ 55%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[20.000s] [ 57%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.196s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c[0m
+[21.223s] [ 59%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/distvel__type_support.c.o[0m
+[21.272s] [ 61%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/my_move_msg__type_support.c.o[0m
+[21.332s] [ 63%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/action/detail/move__type_support.c.o[0m
+[21.398s] [ 65%] [32m[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so[0m
+[21.446s] [ 65%] Built target custom_interface__rosidl_typesupport_introspection_c
+[21.466s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.394s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_c[0m
+[22.424s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/distvel__type_support.cpp.o[0m
+[22.471s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/my_move_msg__type_support.cpp.o[0m
+[22.541s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/action/move__type_support.cpp.o[0m
+[22.612s] [ 76%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so[0m
+[22.679s] [ 76%] Built target custom_interface__rosidl_typesupport_c
+[22.711s] [ 76%] Built target custom_interface
+[22.726s] [35m[1mScanning dependencies of target custom_interface__py[0m
+[22.743s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.790s] [ 78%] Built target custom_interface__py
+[25.811s] [35m[1mScanning dependencies of target custom_interface__python[0m
+[25.839s] [ 80%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_distvel_s.c.o[0m
+[26.125s] [ 82%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/srv/_my_move_msg_s.c.o[0m
+[26.269s] [ 85%] [32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/action/_move_s.c.o[0m
+[26.475s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so[0m
+[26.538s] [ 87%] Built target custom_interface__python
+[26.563s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext[0m
+[26.585s] [ 89%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[26.780s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.836s] [ 91%] Built target custom_interface__rosidl_typesupport_c__pyext
+[26.856s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext[0m
+[26.879s] [ 93%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.058s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.114s] [ 95%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[27.137s] [35m[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[27.168s] [ 97%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.353s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.458s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[27.477s] Invoked command in '/home/carlos/turtlebot3_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/custom_interface -- -j1 -l1
+[27.604s] Invoking command in '/home/carlos/turtlebot3_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/carlos/turtlebot3_ws/build/custom_interface
+[27.624s] -- Install configuration: ""
+[27.630s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[27.631s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.633s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.634s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.635s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.h
+[27.635s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.c
+[27.636s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.h
+[27.636s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.h
+[27.636s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/distvel.h
+[27.637s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[27.637s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.637s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.638s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__struct.h
+[27.638s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__functions.h
+[27.638s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__functions.c
+[27.639s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__type_support.h
+[27.639s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/move.h
+[27.639s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.640s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.641s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.h
+[27.642s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.h
+[27.642s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.c
+[27.643s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__functions.h
+[27.643s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/my_move_msg.h
+[27.643s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/library_path.sh
+[27.644s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[27.645s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[27.645s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+[27.646s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.646s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.646s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.646s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h
+[27.647s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.647s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.647s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.648s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[27.648s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.648s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.648s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h
+[27.652s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[27.653s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[27.653s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.654s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.654s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.654s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp
+[27.655s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps
+[27.655s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.655s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.655s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.656s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/dds_fastrtps
+[27.656s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.656s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.657s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/dds_fastrtps
+[27.659s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[27.660s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.661s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.661s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.661s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.661s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h
+[27.662s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.c
+[27.662s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.662s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.663s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.663s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__rosidl_typesupport_introspection_c.h
+[27.663s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__type_support.c
+[27.664s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.664s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.664s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h
+[27.664s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.c
+[27.667s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[27.668s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+[27.669s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[27.669s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+[27.670s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.670s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.670s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.670s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__builder.hpp
+[27.671s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__traits.hpp
+[27.671s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.hpp
+[27.672s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/distvel.hpp
+[27.672s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.672s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.672s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__traits.hpp
+[27.673s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__struct.hpp
+[27.673s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__builder.hpp
+[27.673s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/move.hpp
+[27.674s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.674s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.674s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__builder.hpp
+[27.675s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__struct.hpp
+[27.675s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__traits.hpp
+[27.675s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/my_move_msg.hpp
+[27.676s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface
+[27.676s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg
+[27.676s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail
+[27.676s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.cpp
+[27.677s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp
+[27.677s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action
+[27.677s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail
+[27.678s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[27.678s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/action/detail/move__type_support.cpp
+[27.678s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv
+[27.678s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail
+[27.679s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp
+[27.679s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/srv/detail/my_move_msg__type_support.cpp
+[27.681s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[27.682s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[27.684s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[27.685s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+[27.685s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[27.685s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[27.686s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py
+[27.736s] Compiling '/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...
+[27.743s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg
+[27.744s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py
+[27.744s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel.py
+[27.744s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel_s.c
+[27.745s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv
+[27.745s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/__init__.py
+[27.746s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg.py
+[27.746s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/srv/_my_move_msg_s.c
+[27.746s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/action
+[27.747s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/action/__init__.py
+[27.747s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/action/_move.py
+[27.747s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/action/_move_s.c
+[27.752s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[27.753s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.755s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[27.756s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.756s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[27.757s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.758s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__python.so
+[27.759s] -- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__python.so" to ""
+[27.759s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/msg/Distvel.idl
+[27.760s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/srv/MyMoveMsg.idl
+[27.761s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/action/Move.idl
+[27.761s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/msg/Distvel.msg
+[27.761s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/srv/MyMoveMsg.srv
+[27.762s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Request.msg
+[27.762s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/srv/MyMoveMsg_Response.msg
+[27.762s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/action/Move.action
+[27.763s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[27.764s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[27.764s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[27.765s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[27.765s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/path.sh
+[27.766s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/path.dsv
+[27.766s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.bash
+[27.766s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.sh
+[27.767s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.zsh
+[27.767s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.dsv
+[27.768s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/package.dsv
+[27.768s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[27.769s] -- Old export file "/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake].
+[27.770s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake
+[27.770s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake
+[27.771s] -- Old export file "/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[27.771s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[27.772s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.772s] -- Old export file "/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake].
+[27.773s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[27.773s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[27.774s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake
+[27.774s] -- Old export file "/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[27.775s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[27.775s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.776s] -- Old export file "/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake].
+[27.776s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[27.776s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[27.777s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[27.777s] -- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.778s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[27.778s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[27.778s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.779s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.779s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.779s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[27.780s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[27.780s] -- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/package.xml
+[27.784s] Invoked command in '/home/carlos/turtlebot3_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/carlos/turtlebot3_ws/install/show_msg:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_service:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/carlos/turtlebot3_ws/build/custom_interface

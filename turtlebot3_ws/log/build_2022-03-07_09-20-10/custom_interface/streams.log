@@ -1,0 +1,47 @@
+[0.021s] Invoking command in '/home/carlos/turtlebot3_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/custom_interface
+[0.062s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.096s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.097s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[0.319s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.412s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.744s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.748s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.092s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.120s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.417s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found version "3.8.10") 
+[1.540s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.851s] -- Found PythonInterp: /home/carlos/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.855s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.907s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.908s] -- Using PYTHON_EXECUTABLE: /home/carlos/virtualenvs/rosenv/bin/python3
+[1.908s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.908s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.948s] -- Found PythonExtra: .so  
+[2.065s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.071s] -- Added test 'lint_cmake' to check CMake code style
+[2.076s] -- Added test 'xmllint' to check XML markup files
+[2.098s] -- Configuring done
+[2.176s] -- Generating done
+[2.185s] -- Build files have been written to: /home/carlos/turtlebot3_ws/build/custom_interface
+[2.204s] Invoked command in '/home/carlos/turtlebot3_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/carlos/turtlebot3_ws/src/custom_interface -DCMAKE_INSTALL_PREFIX=/home/carlos/turtlebot3_ws/install/custom_interface
+[2.206s] Invoking command in '/home/carlos/turtlebot3_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/custom_interface -- -j1 -l1
+[2.273s] [35m[1mScanning dependencies of target custom_interface__cpp[0m
+[2.290s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.396s] Traceback (most recent call last):
+[2.396s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[2.397s]     from rosidl_generator_cpp import generate_cpp
+[2.397s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[2.397s]     from rosidl_cmake import generate_files
+[2.397s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[2.398s]     from rosidl_parser.parser import parse_idl_file
+[2.398s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[2.398s]     from lark import Lark
+[2.399s] ModuleNotFoundError: No module named 'lark'
+[2.410s] make[2]: *** [CMakeFiles/custom_interface__cpp.dir/build.make:79: rosidl_generator_cpp/custom_interface/msg/distvel.hpp] Error 1
+[2.414s] make[1]: *** [CMakeFiles/Makefile2:272: CMakeFiles/custom_interface__cpp.dir/all] Error 2
+[2.414s] make: *** [Makefile:141: all] Error 2
+[2.414s] Invoked command in '/home/carlos/turtlebot3_ws/build/custom_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/carlos/turtlebot3_ws/build/custom_interface -- -j1 -l1

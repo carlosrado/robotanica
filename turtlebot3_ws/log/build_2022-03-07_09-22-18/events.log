@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000310] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000399] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000431] (-) JobUnselected: {'identifier': 'package_name'}
+[0.000462] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000493] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000524] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000559] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.000594] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.017811] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.021227] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[0.022607] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carlos/turtlebot3_ws/build/custom_interface', '--', '-j1', '-l1'], 'cwd': '/home/carlos/turtlebot3_ws/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'carlos'), ('SSH_AGENT_PID', '9594'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/carlos'), ('OLDPWD', '/home/carlos/turtlebot3_ws/src/custom_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '9376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'carlos'), ('JOURNAL_STREAM', '8:40239'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carlos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/carlos/virtualenvs/rosenv/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/carlos-VirtualBox:@/tmp/.ICE-unix/9646,unix/carlos-VirtualBox:/tmp/.ICE-unix/9646'), ('INVOCATION_ID', '4baf12166442449aa873a43117040497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68828523_a256_4a8d_bd59_5157e3395a53'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.473'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '40'), ('AMENT_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/carlos/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carlos/turtlebot3_ws/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[0.095165] (-) TimerEvent: {}
+[0.164963] (custom_interface) StdoutLine: {'line': b'[  3%] Built target custom_interface__cpp\n'}
+[0.194829] (custom_interface) StdoutLine: {'line': b'[ 12%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.195414] (-) TimerEvent: {}
+[0.226968] (custom_interface) StdoutLine: {'line': b'[ 22%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[0.256932] (custom_interface) StdoutLine: {'line': b'[ 32%] Built target custom_interface__rosidl_generator_c\n'}
+[0.290810] (custom_interface) StdoutLine: {'line': b'[ 41%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.295542] (-) TimerEvent: {}
+[0.328061] (custom_interface) StdoutLine: {'line': b'[ 51%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.358072] (custom_interface) StdoutLine: {'line': b'[ 61%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[0.386938] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface__rosidl_typesupport_c\n'}
+[0.395665] (-) TimerEvent: {}
+[0.414851] (custom_interface) StdoutLine: {'line': b'[ 70%] Built target custom_interface\n'}
+[0.445520] (custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.495784] (-) TimerEvent: {}
+[0.596280] (-) TimerEvent: {}
+[0.696689] (-) TimerEvent: {}
+[0.797110] (-) TimerEvent: {}
+[0.897545] (-) TimerEvent: {}
+[0.998165] (-) TimerEvent: {}
+[1.098619] (-) TimerEvent: {}
+[1.199058] (-) TimerEvent: {}
+[1.272309] (custom_interface) StdoutLine: {'line': b'[ 74%] Built target custom_interface__py\n'}
+[1.286988] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__python\x1b[0m\n'}
+[1.299234] (-) TimerEvent: {}
+[1.392332] (custom_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interface__python.dir/rosidl_generator_py/custom_interface/msg/_distvel_s.c.o\x1b[0m\n'}
+[1.399473] (-) TimerEvent: {}
+[1.500118] (-) TimerEvent: {}
+[1.600598] (-) TimerEvent: {}
+[1.658380] (custom_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__python.so\x1b[0m\n'}
+[1.700748] (-) TimerEvent: {}
+[1.721704] (custom_interface) StdoutLine: {'line': b'[ 80%] Built target custom_interface__python\n'}
+[1.741872] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.772861] (custom_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.800835] (-) TimerEvent: {}
+[1.901246] (-) TimerEvent: {}
+[1.901732] (custom_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.950753] (custom_interface) StdoutLine: {'line': b'[ 87%] Built target custom_interface__rosidl_typesupport_c__pyext\n'}
+[1.964815] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.990788] (custom_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.001574] (-) TimerEvent: {}
+[2.101987] (-) TimerEvent: {}
+[2.116676] (custom_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.166388] (custom_interface) StdoutLine: {'line': b'[ 93%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[2.179908] (custom_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.202124] (-) TimerEvent: {}
+[2.210885] (custom_interface) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.302249] (-) TimerEvent: {}
+[2.402708] (-) TimerEvent: {}
+[2.417065] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.503732] (-) TimerEvent: {}
+[2.515974] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.534450] (custom_interface) CommandEnded: {'returncode': 0}
+[2.604626] (-) TimerEvent: {}
+[2.607155] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'install'}
+[2.621020] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carlos/turtlebot3_ws/build/custom_interface'], 'cwd': '/home/carlos/turtlebot3_ws/build/custom_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'carlos'), ('SSH_AGENT_PID', '9594'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/carlos'), ('OLDPWD', '/home/carlos/turtlebot3_ws/src/custom_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '9376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'carlos'), ('JOURNAL_STREAM', '8:40239'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'carlos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/carlos/virtualenvs/rosenv/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/carlos-VirtualBox:@/tmp/.ICE-unix/9646,unix/carlos-VirtualBox:/tmp/.ICE-unix/9646'), ('INVOCATION_ID', '4baf12166442449aa873a43117040497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68828523_a256_4a8d_bd59_5157e3395a53'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.473'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '40'), ('AMENT_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/carlos/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/carlos/turtlebot3_ws/build/custom_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/carlos/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/carlos/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/carlos/turtlebot3_ws/install/turtlebot3_simulations:/home/carlos/turtlebot3_ws/install/turtlebot3_gazebo:/home/carlos/turtlebot3_ws/install/turtlebot3_fake_node:/home/carlos/turtlebot3_ws/install/my_first_subscriber:/home/carlos/turtlebot3_ws/install/my_first_publisher:/home/carlos/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[2.639971] (custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.641583] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface\n'}
+[2.642180] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.642555] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.642844] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.643134] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.h\n'}
+[2.643590] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__functions.c\n'}
+[2.643937] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.h\n'}
+[2.644269] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.h\n'}
+[2.644622] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/distvel.h\n'}
+[2.644948] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.645414] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/library_path.sh\n'}
+[2.645877] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv\n'}
+[2.646356] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so\n'}
+[2.647128] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""\n'}
+[2.647555] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.647804] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.648030] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.648265] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h\n'}
+[2.648636] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.649106] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.649968] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.650363] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.650622] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.650848] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.651087] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651512] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/dds_fastrtps\n'}
+[2.651819] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.652321] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.653031] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.653377] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.653630] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.653847] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.654074] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h\n'}
+[2.654418] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.c\n'}
+[2.654736] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.655178] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so\n'}
+[2.655953] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.656351] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so\n'}
+[2.656984] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""\n'}
+[2.657321] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.657573] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.657847] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.658077] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__builder.hpp\n'}
+[2.658486] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__traits.hpp\n'}
+[2.658802] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__struct.hpp\n'}
+[2.659152] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/distvel.hpp\n'}
+[2.659581] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface\n'}
+[2.659823] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg\n'}
+[2.660046] (custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail\n'}
+[2.660375] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__type_support.cpp\n'}
+[2.660691] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/include/custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.661166] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.661935] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.662330] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so\n'}
+[2.662979] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[2.663455] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh\n'}
+[2.663904] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv\n'}
+[2.664386] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py\n'}
+[2.704812] (-) TimerEvent: {}
+[2.710789] (custom_interface) StdoutLine: {'line': b"Compiling '/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/__init__.py'...\n"}
+[2.717967] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg\n'}
+[2.718382] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/__init__.py\n'}
+[2.718729] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel.py\n'}
+[2.719056] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/msg/_distvel_s.c\n'}
+[2.719742] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.720613] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.721109] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.722247] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.722852] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.723927] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.724398] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__python.so\n'}
+[2.725070] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/carlos/turtlebot3_ws/install/custom_interface/lib/libcustom_interface__python.so" to ""\n'}
+[2.725514] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/msg/Distvel.idl\n'}
+[2.725890] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/msg/Distvel.msg\n'}
+[2.726356] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface\n'}
+[2.726781] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface\n'}
+[2.727260] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh\n'}
+[2.727768] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv\n'}
+[2.728159] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/path.sh\n'}
+[2.728530] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/environment/path.dsv\n'}
+[2.728931] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.bash\n'}
+[2.729299] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.sh\n'}
+[2.729692] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.zsh\n'}
+[2.730061] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/local_setup.dsv\n'}
+[2.730422] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/package.dsv\n'}
+[2.731667] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface\n'}
+[2.732193] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport.cmake\n'}
+[2.732656] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.733125] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.733539] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.733994] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[2.734375] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.734845] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_generator_cppExport.cmake\n'}
+[2.735338] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.737788] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.738274] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.738688] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.739074] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.739588] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.739974] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.740378] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.740763] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.741285] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.748772] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.749393] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake\n'}
+[2.749927] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake\n'}
+[2.750480] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/carlos/turtlebot3_ws/install/custom_interface/share/custom_interface/package.xml\n'}
+[2.767888] (custom_interface) CommandEnded: {'returncode': 0}
+[2.804943] (-) TimerEvent: {}
+[2.905720] (-) TimerEvent: {}
+[3.006300] (-) TimerEvent: {}
+[3.106909] (-) TimerEvent: {}
+[3.207497] (-) TimerEvent: {}
+[3.308173] (-) TimerEvent: {}
+[3.409054] (-) TimerEvent: {}
+[3.509808] (-) TimerEvent: {}
+[3.517482] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 0}
+[3.518760] (-) EventReactorShutdown: {}

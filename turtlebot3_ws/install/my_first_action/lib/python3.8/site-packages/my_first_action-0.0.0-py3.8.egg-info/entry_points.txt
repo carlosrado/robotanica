@@ -1,0 +1,3 @@
+[console_scripts]
+action_server = my_first_action.action_server:mainaction_client = my_first_action.action_client:main
+
