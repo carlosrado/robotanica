@@ -1,3 +1,0 @@
-[console_scripts]
-simple_subscriber = my_first_subscriber.simple_subscriber:main
-

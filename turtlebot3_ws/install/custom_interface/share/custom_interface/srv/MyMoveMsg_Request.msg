@@ -1,6 +1,0 @@
-string move # Define el tipo de movimiento
-            # "delante"
-            # "atras"
-            # "izquierda"
-            # "derecha"
-            # "parar"

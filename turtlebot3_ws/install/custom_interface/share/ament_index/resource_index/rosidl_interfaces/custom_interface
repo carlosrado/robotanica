@@ -1,8 +1,0 @@
-action/Move.action
-action/Move.idl
-msg/Distvel.idl
-msg/Distvel.msg
-srv/MyMoveMsg.idl
-srv/MyMoveMsg.srv
-srv/MyMoveMsg_Request.msg
-srv/MyMoveMsg_Response.msg
