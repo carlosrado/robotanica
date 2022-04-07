@@ -1,15 +1,14 @@
 document.addEventListener('DOMContentLoaded', event => {
 
     //Se obtiene los botones en js con getElementById
-    document.getElementById("funcion1").addEventListener("click", cogerIp)
-    document.getElementById("funcion2").addEventListener("click", disconnect)
+    
 
     var ip = ""
-    document.getElementById("mover").addEventListener("click", () => {
+    document.getElementById("moverDelante").addEventListener("click", () => {
         call_delante_service("delante")
     })
     document.getElementById("parar").addEventListener("click", stop)
-    document.getElementById("reverse").addEventListener("click", reverse)
+    document.getElementById("moverAtras").addEventListener("click", reverse)
 
     var conexion = ""
     //Atributos para representar la info de la conexion
@@ -23,6 +22,7 @@ document.addEventListener('DOMContentLoaded', event => {
 	    service_response: ''
       }
 
+    connect()
     //Se le pasa la direccion del rosbridge a ROSLIB y se crea 
     //una nueva conexion. Esta es asincrona y se crean manejadores de 
     //eventos 
@@ -39,12 +39,11 @@ document.addEventListener('DOMContentLoaded', event => {
         url: data.rosbridge_address
         })
 
-        suscribe()
+        //suscribe()
         // Define callbacks
         //Al des/conectarnos sacamos por pantalla el estaado de la conexion 
         data.ros.on("connection", () => {
             data.connected = true
-            document.getElementById("conexion").textContent = "Conectado"
             console.log("Conexion con ROSBridge correcta") 
         })
         data.ros.on("error", (error) => {
@@ -60,7 +59,6 @@ document.addEventListener('DOMContentLoaded', event => {
     //Se cierra la conexion
     function disconnect(){
         data.ros.close()
-        document.getElementById("conexion").textContent = "Desonectado"
         data.connected = false
       console.log('Clic en botón de desconexión')
     } 
