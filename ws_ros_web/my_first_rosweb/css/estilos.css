@@ -49,22 +49,6 @@ background: linear-gradient(90deg, rgb(109, 236, 185) 15%, rgb(127, 205, 145) 65
 .my-float{
 	padding: 11px;
 }
-/*Contactanos*/
-.contactanosDiv{
-    padding: 3%;
-}
-
-.infoContactanos{
-    background-color: #F5EAEA;
-    border-radius: 25px;
-    box-shadow: 4px 4px grey;
-
-}
-
-.imagenContactanos{
-    height: 10px;
-}
-
 
 /*Funcionalidades*/
 .invernadero{
