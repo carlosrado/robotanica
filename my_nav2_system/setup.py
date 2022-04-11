@@ -29,10 +29,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'initial_pose_pub = my_nav2_system.initial_pose_pub:main',
-            'load_map = my_nav2_system.load_map:main',
-            'nav_to_pose = my_nav2_system.nav_to_pose:main',
-            'go_to_pose = my_nav2_system.go_to_pose:main'
+		'follow_waypoints = my_nav2_system.follow_waypoints:main', #añadir
+		'waypoint_follower = my_nav2_system.waypoint_follower:main', #añadir
         ],
     },
 )

@@ -175,7 +175,18 @@ def generate_launch_description():
                           'params_file': params_file,
                           'default_bt_xml_filename': default_bt_xml_filename,
                           'autostart': autostart}.items())
-
+    # Ejecuta el nodo waypoint_follower.py
+    waypoint_follower = Node(
+            package='my_nav2_system',
+            executable='waypoint_follower',
+            output='screen'
+        )
+    # Ejecuta el nodo follow_waypoints.py
+    follow_waypoints = Node(
+            package='my_nav2_system',
+            executable='follow_waypoints',
+            output='screen'
+        )
     # Create the launch description and populate
     ld = LaunchDescription()
 
@@ -204,5 +215,8 @@ def generate_launch_description():
     ld.add_action(start_robot_state_publisher_cmd)
     ld.add_action(rviz_cmd)
     ld.add_action(bringup_cmd)
-
+    
+    #Add waypoint actions
+    ld.add_action(waypoint_follower)
+    ld.add_action(follow_waypoints)
     return ld

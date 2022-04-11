@@ -12,6 +12,7 @@
   <depend>nav2_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>action_msgs</depend>
+  <depend>custom_interface</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
