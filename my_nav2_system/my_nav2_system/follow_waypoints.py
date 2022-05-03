@@ -22,10 +22,11 @@ class WaypointFollower(Node):
         # crea el mensaje tipo Goal
         # y lo rellena con el argumento dado
         # Rellena con la posicion (int) del punto al que quiere ir (int)
-        for punto in range(1, len(waypoints)+1):
+        for punto in waypoints:
             goal_msg = Move.Goal()
-            goal_msg.waypoints = punto
-
+            goal_msg.x = punto[0]
+            goal_msg.y = punto[1]
+            goal_msg.w = punto[2]
             #espera a que el servidor este listo
             self._action_client.wait_for_server()
             # envia el goal
@@ -61,11 +62,11 @@ class WaypointFollower(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    waypoints = {1: (5, 0.3, 0), 2: (2, 0.3, -0.3), 3: (5, 0.3, 0), 4: (5, 0.3, 0.3)}
+    waypoints = [(0.0,0.0,0.01)]
 
     action_client = WaypointFollower()
-    time.sleep(60)
-    future = action_client.send_goal(waypoints) # se para secs como argumento
+    time.sleep(40)
+    future = action_client.send_goal(waypoints)
 
     rclpy.spin(action_client)
 

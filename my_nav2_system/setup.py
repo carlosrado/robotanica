@@ -31,6 +31,7 @@ setup(
         'console_scripts': [
 		'follow_waypoints = my_nav2_system.follow_waypoints:main', #añadir
 		'waypoint_follower = my_nav2_system.waypoint_follower:main', #añadir
+		'initial_pose_pub = my_nav2_system.initial_pose_pub:main', #añadir
         ],
     },
 )

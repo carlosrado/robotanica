@@ -23,10 +23,16 @@ from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchD
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PythonExpression
+from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
 
 
 def generate_launch_description():
+    # Models for Gazebo
+    pkg_share = FindPackageShare(package='my_world').find('my_world')
+    gazebo_models_path = os.path.join(pkg_share, 'models')
+    os.environ["GAZEBO_MODEL_PATH"] = gazebo_models_path
+    
     # Get the launch directory
     bringup_dir = get_package_share_directory('nav2_bringup')
     launch_dir = os.path.join(bringup_dir, 'launch')
@@ -130,7 +136,7 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value= os.path.join(get_package_share_directory('turtlebot3_gazebo'),'worlds/turtlebot3_worlds/burger.model'), #default_value= os.path.join(get_package_share_directory('my_world'),'world/burger.model'),
+        default_value= os.path.join(get_package_share_directory('my_world'),'world/burger.model'),
         description='Full path to world model file to load')
 
     # Specify the actions
@@ -175,6 +181,7 @@ def generate_launch_description():
                           'params_file': params_file,
                           'default_bt_xml_filename': default_bt_xml_filename,
                           'autostart': autostart}.items())
+
     # Ejecuta el nodo waypoint_follower.py
     waypoint_follower = Node(
             package='my_nav2_system',
@@ -187,9 +194,15 @@ def generate_launch_description():
             executable='follow_waypoints',
             output='screen'
         )
+
+    initial_pose_pub = Node(
+            package='my_nav2_system',
+            executable='initial_pose_pub',
+            output='screen'
+        )
     # Create the launch description and populate
     ld = LaunchDescription()
-
+   
     # Declare the launch options
     ld.add_action(declare_namespace_cmd)
     ld.add_action(declare_use_namespace_cmd)
@@ -215,6 +228,9 @@ def generate_launch_description():
     ld.add_action(start_robot_state_publisher_cmd)
     ld.add_action(rviz_cmd)
     ld.add_action(bringup_cmd)
+    
+    #Add initial pose
+    ld.add_action(initial_pose_pub)
     
     #Add waypoint actions
     ld.add_action(waypoint_follower)
