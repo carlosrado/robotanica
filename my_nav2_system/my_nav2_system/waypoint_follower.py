@@ -2,8 +2,7 @@
 import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
-from custom_interface.action import Move
-from geometry_msgs.msg import PoseStamped
+from nav2_msgs.action import NavigateToPose
 import time
 
 class WaypointFollower(Node):
@@ -16,30 +15,18 @@ class WaypointFollower(Node):
         # tipo de mensaje
         # nombre de la accion
         # funcion a ejecutar
-        self.action_server = ActionServer(self, Move, 'moving_as', self.execute_callback )
-        # creamos objeto tipo PoseWithCovarianceStamped para enviar la posicion del robot
-        self.msg = PoseStamped()
+        self.action_server = ActionServer(self, NavigateToPose, 'navigate_to_pose', self.execute_callback )
         
 
-        #creamos el publisher para el topic cmd_vel con parametros:
-        # tipo de mensaje
-        # nombre del topic
-        # tamaño de la cola
-        self.publisher = self.create_publisher(PoseStamped, 'goal_pose', 10)
 
     def execute_callback(self, goal_handle):
-        feedback_msg = Move.Feedback()
-        self.msg.header.frame_id = 'map'
-        self.msg.pose.position.x = goal_handle.request.x
-        self.msg.pose.position.y = goal_handle.request.y
-        self.msg.pose.orientation.w = goal_handle.request.w
-        self.get_logger().info(f'Publishing  Goal Position  \n X={self.msg.pose.position.x }\n Y={self.msg.pose.position.y} \n W = ={self.msg.pose.orientation.w} ')
-        self.publisher.publish(self.msg)
-        goal_handle.succeed()
-        
-        feedback_msg.feedback = "¡Accion finalizada!"
-        result = Move.Result()
-        result.status = feedback_msg.feedback
+        goal=goal_handle.request.pose
+        print(str(goal) + '__________________________________________________')
+        feedback_msg = NavigateToPose.Feedback().current_pose
+        goal_handle.publish_feedback(feedback_msg)
+        result = NavigateToPose.Result()
+        #result = feedback_msg
+        goal_handle.succeed
         return result
 
 def main(args=None):
